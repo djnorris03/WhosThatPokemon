@@ -14,7 +14,13 @@ const scoreCount = document.querySelector("h3")
 const startOver = document.querySelector(".reset")
 let i=0
 
-
+//Startup Fuction
+function starting(){
+let i = Math.ceil(Math.random() * 6)
+pokeImg.src=allPokemon[i].img
+pokeName.innerText=allPokemon[i].name
+}
+window.onload= starting;
 // Event Listeners
 
 check.addEventListener("click", function(evt)
@@ -42,7 +48,6 @@ check.addEventListener("click", function(evt)
 nextButton.addEventListener("click", function(evt){
     evt.preventDefault();
      function click(){
-        console.log(clicks)
         response.value=""
     }
     click();
@@ -55,9 +60,10 @@ nextButton.addEventListener("click", function(evt){
 
 startOver.addEventListener("click", function(evt){
     evt.preventDefault();
-    clicks=0
-    pokeImg.src=allPokemon[0].img
-    pokeName.innerText= allPokemon[0].name
+    let random = Math.ceil(Math.random() * 6)
+    i = random
+    pokeImg.src=allPokemon[i].img
+    pokeName.innerText= allPokemon[i].name
     scoreCount.innerText="Score: 0"
     response.value=""
 
