@@ -30,7 +30,7 @@ body{
     justify-content: space-evenly;
     width:50%;
     margin:0 auto;
-    margin-top:20px;
+    margin-top:40px;
 }
 
 .score{
@@ -41,12 +41,14 @@ body{
 }
 .pName{
     display:none;
+    font-size:12px;
 }
 .top{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     text-align:center;
+    margin-bottom: 10px;
 }
 #logo{
     width:400px;
@@ -58,11 +60,12 @@ body{
 .form{
     margin: 0 auto;
     margin-bottom:20px;
+    font-size:12px;
 }
 .rightName{
     height:50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 510px) {
     .inputAndStats{
         flex-direction:column;
         justify-content: space-between;
@@ -77,5 +80,8 @@ body{
     }
     .image {
         margin-bottom: 5px;
+    }
+    .top{
+        margin-left: 40px;
     }
 }

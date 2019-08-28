@@ -35,7 +35,7 @@ check.addEventListener("click", function(evt)
         scoreCount.innerText= ("Score: " + counter) 
 
     } else {
-        pokeName.innerText="Sorry, that's not correct."
+        pokeName.innerText="Sorry, try again!"
 
     }
     pokeImg.src=allPokemon[i].imgfull
