@@ -16,7 +16,7 @@ let i=0
 
 //Startup Fuction
 function starting(){
-let random = Math.ceil(Math.random() * 10)
+let random = Math.ceil(Math.random() * 21)
 i = random
 pokeImg.src=allPokemon[i].img
 pokeName.innerText=allPokemon[i].name
@@ -53,7 +53,7 @@ nextButton.addEventListener("click", function(evt){
         response.value=""
     }
     click();
-    let random = Math.ceil(Math.random() * 10)
+    let random = Math.ceil(Math.random() * 21)
     i = random
      pokeImg.src=allPokemon[i].img
      pokeName.innerText= allPokemon[i].name
@@ -62,7 +62,7 @@ nextButton.addEventListener("click", function(evt){
 
 startOver.addEventListener("click", function(evt){
     evt.preventDefault();
-    let random = Math.ceil(Math.random() * 10)
+    let random = Math.ceil(Math.random() * 21)
     i = random
     pokeImg.src=allPokemon[i].img
     pokeName.innerText= allPokemon[i].name
@@ -106,6 +106,29 @@ const magneton = new Pokemon('Magneton', './images/silhouette_magneton.png', './
 const mewtwo = new Pokemon('Mewtwo', './images/silhouette_mewtwo.jpg', './images/mewtwo.png')
 
 const sandslash = new Pokemon('Sandslash', './images/silhouette_sandslash.png', './images/sandslash.png')
+
+const onix = new Pokemon('Onix', './images/silhouette_onix.jpeg', './images/onix.png')
+
+const rattata = new Pokemon('Rattata', './images/silhouette_rattata.png', './images/ratata.png')
+
+const diglett = new Pokemon('Diglett', './images/silhouette_diglett.png', './images/diglett.png')
+
+const eevee = new Pokemon('Eevee','./images/silhouette_eevee.jpg', './images/eevee.png')
+
+const zapdos = new Pokemon('Zapdos', './images/silhouette_zapdos3.jpg', './images/zapdos.png')
+
+const mew = new Pokemon('Mew', './images/silhouette_mew.jpeg','./images/meww.png')
+
+const pidgey = new Pokemon('Pidgey','./images/silhouette_pidgey.jpg','./images/pidgey.png')
+
+const marowak = new Pokemon('Marowak', './images/silhouette_marowak.jpg','./images/marowak.png')
+
+const machop = new Pokemon('Machop','./images/silhouette_machop.jpg','./images/machop.png')
+
+const electabuzz = new Pokemon('Electabuzz','./images/silhouette_electabuzz.png','./images/electabuzz.jpg')
+
+const arcanine = new Pokemon('Arcanine','./images/silhouette_arcanine.png','./images/arcanine.png')
 //Pokemon Array
 
-const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash]
+
+const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash,onix,rattata,diglett,eevee,zapdos,mew,pidgey,marowak,machop,electabuzz,arcanine]
