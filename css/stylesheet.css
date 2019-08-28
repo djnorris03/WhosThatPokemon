@@ -3,6 +3,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Press Start 2P', cursive;
+
 }
 .wrapper{
     display:flex;
@@ -59,4 +61,21 @@ body{
 }
 .rightName{
     height:50px;
+}
+@media (max-width: 500px) {
+    .inputAndStats{
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+    }
+    h3{
+        font-size:15px;
+    }
+    .score{
+        margin: 5px 0;
+    }
+    .image {
+        margin-bottom: 5px;
+    }
 }

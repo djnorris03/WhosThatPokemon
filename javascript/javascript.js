@@ -22,6 +22,7 @@ pokeImg.src=allPokemon[i].img
 pokeName.innerText=allPokemon[i].name
 }
 window.onload= starting;
+
 // Event Listeners
 
 check.addEventListener("click", function(evt)
@@ -84,27 +85,27 @@ class Pokemon {
 
 // New pokemon
 
-const charmander = new Pokemon('Charmander', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_charmander.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/charmander.png')
+const charmander = new Pokemon('Charmander', './images/silhouette_charmander.jpg', './images/charmander.png')
 
-const squirtle = new Pokemon('Squirtle', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_squirtle.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/squirtle.png')
+const squirtle = new Pokemon('Squirtle', './images/silhouette_squirtle.jpg', './images/squirtle.png')
 
-const dratini = new Pokemon('Dratini', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_dratini.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/dratini.png')
+const dratini = new Pokemon('Dratini', './images/silhouette_dratini.png', './images/dratini.png')
 
-const venasaur = new Pokemon('Venasaur', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_venasaur.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/venasaur.png')
+const venasaur = new Pokemon('Venasaur', './images/silhouette_venasaur.jpg', './images/venasaur.png')
 
-const ninetales = new Pokemon('Ninetales', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_ninetales.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/ninetales.png')
+const ninetales = new Pokemon('Ninetales', './images/silhouette_ninetales.png', './images/ninetales.png')
 
-const venonat = new Pokemon('Venonat', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_venonat.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/venonat.png')
+const venonat = new Pokemon('Venonat', './images/silhouette_venonat.jpg', './images/venonat.png')
 
-const alakazam = new Pokemon('Alakazam', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_alakazam.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/alakazam.png')
+const alakazam = new Pokemon('Alakazam', './images/silhouette_alakazam.png', './images/alakazam.png')
 
-const pikachu = new Pokemon('Pikachu', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_pikachu2.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/pikachu.png')
+const pikachu = new Pokemon('Pikachu', './images/silhouette_pikachu2.jpg', './images/pikachu.png')
 
-const magneton = new Pokemon('Magneton', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_magneton.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/magneton.png')
+const magneton = new Pokemon('Magneton', './images/silhouette_magneton.png', './images/magneton.png')
 
-const mewtwo = new Pokemon('Mewtwo', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_mewtwo.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/mewtwo.png')
+const mewtwo = new Pokemon('Mewtwo', './images/silhouette_mewtwo.jpg', './images/mewtwo.png')
 
-const sandslash = new Pokemon('Sandslash', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_sandslash.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/sandslash.png')
+const sandslash = new Pokemon('Sandslash', './images/silhouette_sandslash.png', './images/sandslash.png')
 //Pokemon Array
 
 const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash]
