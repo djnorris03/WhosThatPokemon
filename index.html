@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <title>Who's That Pokemon?</title>
 </head>
 <body>
-    
+    <section class="wrapper">
+        <div class="top"><img id = "logo" src="./images/pokeLogo.jpg">
+            <h1>Who's That Pokemon?</h1>
+        </div>
+        <div class="image"><img class="pokemon" src="./images/silhouette_charmander.jpg"><div class= rightName><h2 class = "pName">Charmander</h2></div>
+        </div>
+            <div class="form">
+                <form>Pokemon Name:
+                     <input class = "answer" type="text">
+                     <input class ="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        <div class="inputAndStats">
+            <div class="next2"><button class="next">Click here to skip</button></div>
+            <div class="score"><h3>Score: 0</h3></div>
+            <div class="reset"><button class="reset"> Click here to start over </button></div>
+        </div>
+    </section>
+    <script src="javascript/javascript.js"></script>
 </body>
 </html>

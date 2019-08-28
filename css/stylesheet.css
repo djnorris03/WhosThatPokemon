@@ -1,0 +1,62 @@
+body{
+    background-image: url("./../images/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.image{
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    margin-bottom:20px;
+    text-align:center;
+}
+.pokemon{
+    height:250px;
+    width:250px;
+}
+.inputAndStats{
+    display:flex;
+    flex-direction:row;
+    margin-top:20px;
+    justify-content: space-evenly;
+    width:50%;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.score{
+    margin:0 auto;
+    font-size:20px;
+    color:black;
+    margin-top:-30px;
+}
+.pName{
+    display:none;
+}
+.top{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+#logo{
+    width:400px;
+    height:300px;
+    margin-top:-100px;
+    margin-bottom:-100px;
+    
+}
+.form{
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.rightName{
+    height:50px;
+}
