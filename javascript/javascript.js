@@ -16,7 +16,8 @@ let i=0
 
 //Startup Fuction
 function starting(){
-let i = Math.ceil(Math.random() * 6)
+let random = Math.ceil(Math.random() * 10)
+i = random
 pokeImg.src=allPokemon[i].img
 pokeName.innerText=allPokemon[i].name
 }
@@ -51,7 +52,7 @@ nextButton.addEventListener("click", function(evt){
         response.value=""
     }
     click();
-    let random = Math.ceil(Math.random() * 6)
+    let random = Math.ceil(Math.random() * 10)
     i = random
      pokeImg.src=allPokemon[i].img
      pokeName.innerText= allPokemon[i].name
@@ -60,7 +61,7 @@ nextButton.addEventListener("click", function(evt){
 
 startOver.addEventListener("click", function(evt){
     evt.preventDefault();
-    let random = Math.ceil(Math.random() * 6)
+    let random = Math.ceil(Math.random() * 10)
     i = random
     pokeImg.src=allPokemon[i].img
     pokeName.innerText= allPokemon[i].name
@@ -96,6 +97,14 @@ const ninetales = new Pokemon('Ninetales', 'file:///Users/carlarojas/Documents/G
 const venonat = new Pokemon('Venonat', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_venonat.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/venonat.png')
 
 const alakazam = new Pokemon('Alakazam', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_alakazam.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/alakazam.png')
+
+const pikachu = new Pokemon('Pikachu', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_pikachu2.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/pikachu.png')
+
+const magneton = new Pokemon('Magneton', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_magneton.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/magneton.png')
+
+const mewtwo = new Pokemon('Mewtwo', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_mewtwo.jpg', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/mewtwo.png')
+
+const sandslash = new Pokemon('Sandslash', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/silhouette_sandslash.png', 'file:///Users/carlarojas/Documents/General_Assembly/projects/ProjectOne/images/sandslash.png')
 //Pokemon Array
 
-const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam]
+const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash]
