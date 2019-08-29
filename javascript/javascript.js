@@ -34,13 +34,21 @@ check.addEventListener("click", function (evt) {
   if (response.value.toLowerCase() === pokeName.innerText.toLowerCase()) {
     counter += 1
     scoreCount.innerText = ("Score: " + counter)
-
+  } else {
+    counter -= 1
+    scoreCount.innerText = ("Score: " + counter)
   }
   pokePhoto.classList.add("imageFade")
   pokeImg.src = allPokemon[i].imgfull
   pokeName.style.display = "block"
   response.value = ""
-  setTimeout(function () { nextButton.click(); }, 3000);
+  const wrapperElement = document.querySelector("section.wrapper")
+
+  wrapperElement.classList.toggle("pointer-events-none")
+  setTimeout(function () {
+    nextButton.click();
+    wrapperElement.classList.toggle("pointer-events-none")
+  }, 3000);
 
 
 

@@ -175,3 +175,7 @@ to {
         width:80%;
     }
 }
+
+.pointer-events-none {
+    pointer-events: none;
+}
