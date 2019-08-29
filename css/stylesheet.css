@@ -130,7 +130,7 @@ body{
   }
 @media (max-width: 510px) {
     .inputAndStats{
-        flex-direction:column;
+        flex-direction:row;
         justify-content: space-between;
         align-items: center;
         text-align:center;
@@ -139,7 +139,7 @@ body{
         font-size:15px;
     }
     .score{
-        margin: 5px 0;
+        margin: 0 auto;
     }
     .image {
         margin-bottom: 5px;
