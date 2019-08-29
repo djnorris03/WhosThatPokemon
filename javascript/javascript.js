@@ -134,5 +134,4 @@ const electabuzz = new Pokemon('Electabuzz','./images/silhouette_electabuzz.png'
 const arcanine = new Pokemon('Arcanine','./images/silhouette_arcanine.png','./images/arcanine.png')
 //Pokemon Array
 
-
 const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash,onix,rattata,diglett,eevee,zapdos,mew,pidgey,marowak,machop,electabuzz,arcanine]
