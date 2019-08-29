@@ -31,7 +31,14 @@ body{
           opacity: 1;
         }
        }
-
+@-webkit-keyframes fade{
+    from{
+        -webkit-opacity: 0;
+    }
+    to {
+        -webkit-opacity: 1;
+    }
+}
 .pokemon{
     height:250px;
     width:250px;
