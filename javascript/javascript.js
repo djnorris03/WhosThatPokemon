@@ -36,10 +36,7 @@ check.addEventListener("click", function(evt)
         counter += 1
         scoreCount.innerText= ("Score: " + counter) 
 
-    } else {
-        pokeName.innerText="Sorry, try again!"
-
-    }
+    } 
     pokePhoto.classList.add("imageFade")
     pokeImg.src=allPokemon[i].imgfull
     pokeName.style.display="block"
