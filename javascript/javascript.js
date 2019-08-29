@@ -1,6 +1,3 @@
-//Testing 
-console.log("I work")
-
 //Variables
 
 let nextButton = document.querySelector(".next")
@@ -27,14 +24,20 @@ window.onload = starting;
 
 // Event Listeners
 
-//This one checks the answer
 check.addEventListener("click", function (evt) {
   evt.preventDefault();
-  console.log("button works")
+  const wrapperElement = document.querySelector("section.wrapper")
+
+  if (wrapperElement.classList.contains("pointer-events-none")) {
+    return
+  }
+
+//This one checks the answer
+
   if (response.value.toLowerCase() === pokeName.innerText.toLowerCase()) {
     counter += 1
     scoreCount.innerText = ("Score: " + counter)
-  } else {
+  } else if (counter > 0) {
     counter -= 1
     scoreCount.innerText = ("Score: " + counter)
   }
@@ -42,7 +45,6 @@ check.addEventListener("click", function (evt) {
   pokeImg.src = allPokemon[i].imgfull
   pokeName.style.display = "block"
   response.value = ""
-  const wrapperElement = document.querySelector("section.wrapper")
 
   wrapperElement.classList.toggle("pointer-events-none")
   setTimeout(function () {
