@@ -147,4 +147,7 @@ body{
     .image {
         margin-bottom: 5px;
     }
+    .modal-content{
+        width:80%;
+    }
 }
