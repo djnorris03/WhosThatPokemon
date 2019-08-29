@@ -4,7 +4,7 @@ Who's That Pokemon
 Description: 
 This is a game I made using HTML, CSS, and Javascript. The game presents a silhouette image of a Pokemon and gives the player a chance to guess the name of that Pokemon. If the player guesses correctly, they earn a point. If the player guesses incorrectly, they do not get a point. Either way, the actual pokemon image and name are revealed.
 
-![Preview of Game](https://imgur.com/uRmBZiI)
+Click here for a preview https://imgur.com/uRmBZiI 
 
 Features: 
 
