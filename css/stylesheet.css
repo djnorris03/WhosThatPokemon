@@ -147,6 +147,8 @@ to {
     text-decoration: none;
     cursor: pointer;
   }
+
+  /* Phone Optimization */
 @media (max-width: 510px) {
     .inputAndStats{
         flex-direction:row;

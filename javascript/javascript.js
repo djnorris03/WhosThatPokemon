@@ -14,62 +14,63 @@ const scoreCount = document.querySelector("h3")
 const startOver = document.querySelector(".reset")
 let pokePhoto = document.querySelector(".image")
 let theHint = document.querySelector(".hintText")
-let i=0
+let i = 0
 
 //Startup Fuction
-function starting(){
-let random = Math.ceil(Math.random() * 21)
-i = random
-pokeImg.src=allPokemon[i].img
-pokeName.innerText=allPokemon[i].name
+function starting() {
+  let random = Math.ceil(Math.random() * 21)
+  i = random
+  pokeImg.src = allPokemon[i].img
+  pokeName.innerText = allPokemon[i].name
 }
-window.onload= starting;
+window.onload = starting;
 
 // Event Listeners
 
-check.addEventListener("click", function(evt)
-{
-    evt.preventDefault();
-    console.log("button works")
-    if(response.value.toLowerCase()===pokeName.innerText.toLowerCase())
-    {
-        counter += 1
-        scoreCount.innerText= ("Score: " + counter) 
+//This one checks the answer
+check.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  console.log("button works")
+  if (response.value.toLowerCase() === pokeName.innerText.toLowerCase()) {
+    counter += 1
+    scoreCount.innerText = ("Score: " + counter)
 
-    } 
-    pokePhoto.classList.add("imageFade")
-    pokeImg.src=allPokemon[i].imgfull
-    pokeName.style.display="block"
-    response.value=""
-    setTimeout(function(){ nextButton.click(); }, 3000);
+  }
+  pokePhoto.classList.add("imageFade")
+  pokeImg.src = allPokemon[i].imgfull
+  pokeName.style.display = "block"
+  response.value = ""
+  setTimeout(function () { nextButton.click(); }, 3000);
 
 
 
 })
+//This one skips current pokemon
 
-nextButton.addEventListener("click", function(evt){
-    evt.preventDefault();
-     function click(){
-        response.value=""
-        pokePhoto.classList.remove("imageFade")
+nextButton.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  function click() {
+    response.value = ""
+    pokePhoto.classList.remove("imageFade")
 
-    }
-    click();
-    let random = Math.ceil(Math.random() * 21)
-    i = random
-     pokeImg.src=allPokemon[i].img
-     pokeName.innerText= allPokemon[i].name
-     pokeName.style.display="none"
-     })
+  }
+  click();
+  let random = Math.ceil(Math.random() * 21)
+  i = random
+  pokeImg.src = allPokemon[i].img
+  pokeName.innerText = allPokemon[i].name
+  pokeName.style.display = "none"
+})
 
-startOver.addEventListener("click", function(evt){
-    evt.preventDefault();
-    let random = Math.ceil(Math.random() * 21)
-    i = random
-    pokeImg.src=allPokemon[i].img
-    pokeName.innerText= allPokemon[i].name
-    scoreCount.innerText="Score: 0"
-    response.value=""
+// This one resets score to 0 and starts game over
+startOver.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  let random = Math.ceil(Math.random() * 21)
+  i = random
+  pokeImg.src = allPokemon[i].img
+  pokeName.innerText = allPokemon[i].name
+  scoreCount.innerText = "Score: 0"
+  response.value = ""
 
 
 })
@@ -78,12 +79,12 @@ startOver.addEventListener("click", function(evt){
 // Class (pokemon) creation
 
 class Pokemon {
-    constructor(name,img,imgfull,hint){
-        this.name=name
-        this.img=img
-        this.imgfull=imgfull
-        this.hint=hint
-    }
+  constructor(name, img, imgfull, hint) {
+    this.name = name
+    this.img = img
+    this.imgfull = imgfull
+    this.hint = hint
+  }
 }
 
 // New pokemon
@@ -116,23 +117,23 @@ const rattata = new Pokemon('Rattata', './images/silhouette_rattata.png', './ima
 
 const diglett = new Pokemon('Diglett', './images/silhouette_diglett.png', './images/diglett.png', 'The name of this Ground type Pokemon begins with a D')
 
-const eevee = new Pokemon('Eevee','./images/silhouette_eevee.jpg', './images/eevee.png', 'The name of this Normal type Pokemon begins with an E')
+const eevee = new Pokemon('Eevee', './images/silhouette_eevee.jpg', './images/eevee.png', 'The name of this Normal type Pokemon begins with an E')
 
 const zapdos = new Pokemon('Zapdos', './images/silhouette_zapdos3.jpg', './images/zapdos.png', 'The name of this Electric type Pokemon begins with a Z')
 
-const mew = new Pokemon('Mew', './images/silhouette_mew.jpeg','./images/meww.png', 'The name of this Psychic type Pokemon begins with an M')
+const mew = new Pokemon('Mew', './images/silhouette_mew.jpeg', './images/meww.png', 'The name of this Psychic type Pokemon begins with an M')
 
-const pidgey = new Pokemon('Pidgey','./images/silhouette_pidgey.jpg','./images/pidgey.png', 'The name of this Flying type Pokemon begins with a P')
+const pidgey = new Pokemon('Pidgey', './images/silhouette_pidgey.jpg', './images/pidgey.png', 'The name of this Flying type Pokemon begins with a P')
 
-const marowak = new Pokemon('Marowak', './images/silhouette_marowak.jpg','./images/marowak.png', 'The name of this Ground type Pokemon begins with an M')
+const marowak = new Pokemon('Marowak', './images/silhouette_marowak.jpg', './images/marowak.png', 'The name of this Ground type Pokemon begins with an M')
 
-const machop = new Pokemon('Machop','./images/silhouette_machop.jpg','./images/machop.png', 'The name of this Fighting type Pokemon begins with an M')
+const machop = new Pokemon('Machop', './images/silhouette_machop.jpg', './images/machop.png', 'The name of this Fighting type Pokemon begins with an M')
 
-const electabuzz = new Pokemon('Electabuzz','./images/silhouette_electabuzz.png','./images/electabuzz.jpg', 'The name of this Electric type Pokemon begins with an E')
+const electabuzz = new Pokemon('Electabuzz', './images/silhouette_electabuzz.png', './images/electabuzz.jpg', 'The name of this Electric type Pokemon begins with an E')
 
-const arcanine = new Pokemon('Arcanine','./images/silhouette_arcanine.png','./images/arcanine.png', 'Thename of this Fire type Pokemon begins with an A')
+const arcanine = new Pokemon('Arcanine', './images/silhouette_arcanine.png', './images/arcanine.png', 'Thename of this Fire type Pokemon begins with an A')
 //Pokemon Array
-const allPokemon=[charmander,squirtle,dratini,venasaur,ninetales,venonat,alakazam,pikachu,magneton,mewtwo,sandslash,onix,rattata,diglett,eevee,zapdos,mew,pidgey,marowak,machop,electabuzz,arcanine]
+const allPokemon = [charmander, squirtle, dratini, venasaur, ninetales, venonat, alakazam, pikachu, magneton, mewtwo, sandslash, onix, rattata, diglett, eevee, zapdos, mew, pidgey, marowak, machop, electabuzz, arcanine]
 
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -144,18 +145,18 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = function() {
-  theHint.innerText=allPokemon[i].hint
+btn.onclick = function () {
+  theHint.innerText = allPokemon[i].hint
   modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
