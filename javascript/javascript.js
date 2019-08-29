@@ -97,7 +97,7 @@ const squirtle = new Pokemon('Squirtle', './images/silhouette_squirtle.jpg', './
 
 const dratini = new Pokemon('Dratini', './images/silhouette_dratini.png', './images/dratini.png', 'The name of this Dragon type Pokemon begins with a D')
 
-const venasaur = new Pokemon('Venasaur', './images/silhouette_venasaur.jpg', './images/venasaur.png', 'The name of this Grass type Pokemon beings with a V')
+const venasaur = new Pokemon('Venasaur', './images/silhouette_venasaur.jpg', './images/venasaur.png', 'The name of this Grass type Pokemon begins with a V')
 
 const ninetales = new Pokemon('Ninetales', './images/silhouette_ninetales.png', './images/ninetales.png', 'The name of this Fire type pokemon begins with an N')
 
