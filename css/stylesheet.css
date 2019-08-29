@@ -136,6 +136,7 @@ body{
     }
     .next2, .hintButton, .reset{
         margin:0 5px;
+        width: 100px;
     }
     h3{
         font-size:15px;
