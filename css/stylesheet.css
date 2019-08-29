@@ -131,15 +131,18 @@ body{
 @media (max-width: 510px) {
     .inputAndStats{
         flex-direction:row;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: space-evenly;
         text-align:center;
+    }
+    .next2, .hintButton, .reset{
+        margin:0 5px;
     }
     h3{
         font-size:15px;
     }
     .score{
         margin: 0 auto;
+        margin-bottom:-30px;
     }
     .image {
         margin-bottom: 5px;
