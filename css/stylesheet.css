@@ -19,6 +19,19 @@ body{
     margin-bottom:20px;
     text-align:center;
 }
+.imageFade{
+    animation: fade 2s alternate;
+}
+
+@keyframes fade {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+       }
+
 .pokemon{
     height:250px;
     width:250px;
@@ -53,6 +66,7 @@ body{
 #logo{
     width:400px;
     height:300px;
+    margin: 0 auto;
     margin-top:-100px;
     margin-bottom:-100px;
     

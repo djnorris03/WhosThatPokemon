@@ -12,6 +12,7 @@ const response = document.querySelector(".answer")
 let counter = 0
 const scoreCount = document.querySelector("h3")
 const startOver = document.querySelector(".reset")
+let pokePhoto = document.querySelector(".image")
 let i=0
 
 //Startup Fuction
@@ -38,6 +39,7 @@ check.addEventListener("click", function(evt)
         pokeName.innerText="Sorry, try again!"
 
     }
+    pokePhoto.classList.add("imageFade")
     pokeImg.src=allPokemon[i].imgfull
     pokeName.style.display="block"
     response.value=""
@@ -51,6 +53,8 @@ nextButton.addEventListener("click", function(evt){
     evt.preventDefault();
      function click(){
         response.value=""
+        pokePhoto.classList.remove("imageFade")
+
     }
     click();
     let random = Math.ceil(Math.random() * 21)
