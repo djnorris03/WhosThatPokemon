@@ -23,3 +23,4 @@ Future additions I am considering include:
   - Addition of more Pokemon into the array to choose from
   - Creation and usage of an API to randomly generate Pokemon instead of randomly selecting number for i from my created array.
   - Fix issue with slow loading of actual Pokemon images on mobile after user guesses Pokmon name 
+  -Further test and optimize for mobile
