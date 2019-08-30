@@ -15,7 +15,7 @@ let i = 0
 
 //Startup Fuction
 function starting() {
-  let random = Math.ceil(Math.random() * 21)
+  let random = Math.ceil(Math.random() * 30)
   i = random
   pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
@@ -65,7 +65,7 @@ nextButton.addEventListener("click", function (evt) {
 
   }
   click();
-  let random = Math.ceil(Math.random() * 21)
+  let random = Math.ceil(Math.random() * 30)
   i = random
   pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
@@ -75,7 +75,7 @@ nextButton.addEventListener("click", function (evt) {
 // This one resets score to 0 and starts game over
 startOver.addEventListener("click", function (evt) {
   evt.preventDefault();
-  let random = Math.ceil(Math.random() * 21)
+  let random = Math.ceil(Math.random() * 30)
   i = random
   pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
@@ -142,8 +142,26 @@ const machop = new Pokemon('Machop', './images/silhouette_machop.jpg', './images
 const electabuzz = new Pokemon('Electabuzz', './images/silhouette_electabuzz.png', './images/electabuzz.jpg', 'The name of this Electric type Pokemon begins with an E')
 
 const arcanine = new Pokemon('Arcanine', './images/silhouette_arcanine.png', './images/arcanine.png', 'Thename of this Fire type Pokemon begins with an A')
+
+const poliwhirl = new Pokemon('Poliwhirl', './images/silhouette_poliwrath.png', './images/Poliwhirl.png', 'The name of this Water type Pokemon begins with a P')
+
+const ghastly = new Pokemon('Ghastly', './images/silhouette_ghastly.jpg', './images/ghastly.png', 'The name of this Ghost type Pokemon begins with a G')
+
+const oddish = new Pokemon('Oddish', './images/silhouette_oddish.png', './images/oddish.jpg', 'The name of this Grass type pokemon begins with an O')
+
+const chansey = new Pokemon('Chansey', './images/silhouette_chansey.png', './images/chansey.png', 'The name of this Normal type Pokemon begins with a C')
+
+const machamp = new Pokemon('Machamp', './images/silhouette_machamp.png', './images/machamp.png', 'The name of this Fighting type Pokemon begins with an M')
+
+const raichu = new Pokemon('Raichu', './images/silhouette_raichu.jpg', './images/raichu.png', 'The name of this Electric type Pokemon starts with an R')
+
+const hitmonchan = new Pokemon('Hitmonchan', './images/silhouette_hitmonchan.png', './images/hitmonchan.png', 'The name of this Fighting type Pokemon begins with an H')
+
+const hitmonlee = new Pokemon ('Hitmonlee', './images/silhouette_hitmonlee.jpeg', './images/hitmonlee.jpg', 'The name of this Fighting type Pokemon begins with an H')
+
+const vulpix = new Pokemon('Vulpix', './images/silhouette_vulpix.jpg', './images/vulpix.png', 'The name of this Fire type Pokemon begins with a V')
 //Pokemon Array
-const allPokemon = [charmander, squirtle, dratini, venasaur, ninetales, venonat, alakazam, pikachu, magneton, mewtwo, sandslash, onix, rattata, diglett, eevee, zapdos, mew, pidgey, marowak, machop, electabuzz, arcanine]
+const allPokemon = [charmander, squirtle, dratini, venasaur, ninetales, venonat, alakazam, pikachu, magneton, mewtwo, sandslash, onix, rattata, diglett, eevee, zapdos, mew, pidgey, marowak, machop, electabuzz, arcanine, poliwhirl, ghastly, oddish, chansey, machamp, raichu, hitmonchan, hitmonlee, vulpix]
 
 // Get the modal
 var modal = document.getElementById("myModal");
