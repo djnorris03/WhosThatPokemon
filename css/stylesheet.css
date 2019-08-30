@@ -180,3 +180,13 @@ to {
     pointer-events: none;
     
 }
+
+button, .submit{
+    font-family: 'Press Start 2P', cursive;
+    padding:10px;
+    background-color:rgb(254,195,11,.8)
+}
+button:hover, .submit:hover{
+    border:solid black 3px;
+    text-decoration: underline;
+}
