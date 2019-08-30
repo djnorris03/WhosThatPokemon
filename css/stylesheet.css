@@ -83,6 +83,7 @@ body{
     margin: 0 auto;
     margin-bottom:20px;
     font-size:12px;
+    text-align: center;
 }
 .rightName{
     height:50px;
@@ -196,6 +197,8 @@ button:hover, .submit:hover{
     }
     .submit{
         margin-left:-10px;
+        padding-top:5px;
+        padding-bottom:5px;
     }
     button:hover, .submit:hover{
         border:solid rgb(45,65,150) 1px;
