@@ -161,7 +161,7 @@ button, .submit{
     border:solid rgb(45,65,150) 1px;
 
 }
-button:hover, .submit:hover{
+button:hover, .submit:hover, button:focus, .submit:focus{
     border:solid rgb(45,65,150) 3px;
     text-decoration: underline;
 }
