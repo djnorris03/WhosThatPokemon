@@ -5,7 +5,7 @@ Who's That Pokemon**
 
 This is a game I made using HTML, CSS, and Javascript. The game presents a silhouette image of a Pokemon and gives the player a chance to guess the name of that Pokemon. If the player guesses correctly, they earn a point. If the player guesses incorrectly, they do not get a point. Either way, the actual pokemon image and name are revealed.
 
-Click here for a preview https://imgur.com/uRmBZiI 
+![screenshot](https://i.imgur.com/lsQ0ArI.png)
 
 **Features:** 
 
@@ -23,4 +23,5 @@ Future additions I am considering include:
   - Addition of more Pokemon into the array to choose from
   - Creation and usage of an API to randomly generate Pokemon instead of randomly selecting number for i from my created array.
   - Fix issue with slow loading of actual Pokemon images on mobile after user guesses Pokmon name 
-  -Further test and optimize for mobile
+  - Further test and optimize for mobile
+  - Add functionality to accept answers that are not spellef perfectly
