@@ -148,6 +148,23 @@ to {
     cursor: pointer;
   }
 
+  .pointer-events-none {
+    pointer-events: none;
+    
+}
+
+button, .submit{
+    font-family: 'Press Start 2P', cursive;
+    padding:10px;
+    background-color:rgba(255, 209, 71, 0.8);
+    border:solid rgb(45,65,150) 1px;
+
+}
+button:hover, .submit:hover{
+    border:solid rgb(45,65,150) 3px;
+    text-decoration: underline;
+}
+
   /* Phone Optimization */
 @media (max-width: 510px) {
     .inputAndStats{
@@ -180,21 +197,10 @@ to {
     .submit{
         margin-left:-10px;
     }
+    button:hover, .submit:hover{
+        border:solid rgb(45,65,150) 1px;
+        text-decoration: none;
+    }
 }
 
-.pointer-events-none {
-    pointer-events: none;
-    
-}
 
-button, .submit{
-    font-family: 'Press Start 2P', cursive;
-    padding:10px;
-    background-color:rgba(255, 209, 71, 0.8);
-    border:solid rgb(45,65,150) 1px;
-
-}
-button:hover, .submit:hover{
-    border:solid rgb(45,65,150) 3px;
-    text-decoration: underline;
-}
