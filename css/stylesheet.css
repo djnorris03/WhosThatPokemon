@@ -174,6 +174,12 @@ to {
     .modal-content{
         width:80%;
     }
+    .answer{
+        margin-left:-10px;
+    }
+    .submit{
+        margin-left:-10px;
+    }
 }
 
 .pointer-events-none {
@@ -184,9 +190,11 @@ to {
 button, .submit{
     font-family: 'Press Start 2P', cursive;
     padding:10px;
-    background-color:rgb(254,195,11,.8)
+    background-color:rgba(255, 209, 71, 0.8);
+    border:solid rgb(45,65,150) 1px;
+
 }
 button:hover, .submit:hover{
-    border:solid black 3px;
+    border:solid rgb(45,65,150) 3px;
     text-decoration: underline;
 }
