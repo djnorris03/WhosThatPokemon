@@ -1,10 +1,5 @@
 body{
-    background-image: url("./../images/background3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-family: 'Press Start 2P', cursive;
-
 }
 .wrapper{
     display:flex;
@@ -22,7 +17,6 @@ body{
 .imageFade{
     animation: fade 2s alternate;
 }
-
 @keyframes fade {
         from {
           opacity: 0.1;
@@ -162,8 +156,9 @@ button, .submit{
 
 }
 button:hover, .submit:hover, button:focus, .submit:focus{
-    border:solid rgb(45,65,150) 3px;
+    transform: scale(1.05);
     text-decoration: underline;
+    box-shadow: rgb(45,65,150);
 }
 
   /* Phone Optimization */
