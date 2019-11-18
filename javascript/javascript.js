@@ -1,5 +1,5 @@
 //Variables
-
+//Stuff
 let nextButton = document.querySelector(".next")
 let pokeImg = document.querySelector(".pokemon")
 const pokeName = document.querySelector(".pName")
