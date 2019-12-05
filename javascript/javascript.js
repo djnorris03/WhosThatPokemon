@@ -81,8 +81,7 @@ startOver.addEventListener("click", function (evt) {
   pokeName.innerText = allPokemon[i].name
   scoreCount.innerText = "Score: 0"
   response.value = ""
-
-
+  counter=0
 })
 
 
