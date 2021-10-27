@@ -98,67 +98,27 @@ class Pokemon {
 
 // New pokemon
 
-const charmander = new Pokemon('Charmander', './images/silhouette_charmander.jpg', './images/charmander.png', 'The name of this Fire type Pokemon begins with a C')
+const Abby = new Pokemon('Abby Hartwig', './images/Abby Hartwig_s.jpg', './images/Abby Hartwig.jpg', 'Girl Sophmore')
 
-const squirtle = new Pokemon('Squirtle', './images/silhouette_squirtle.jpg', './images/squirtle.png', 'The name of this Water type Pokemon begins with an S')
+const Allison = new Pokemon('Allison Kock', './images/Allison_s.jpg', './images/Allison.jpg', 'Girl Senior')
 
-const dratini = new Pokemon('Dratini', './images/silhouette_dratini.png', './images/dratini.png', 'The name of this Dragon type Pokemon begins with a D')
+const Ava = new Pokemon('Ava Munsen', './images/Ava Munsen_s.jpg', './images/Ava Munsen.jpg', 'Girl Sophmore')
 
-const venasaur = new Pokemon('Venasaur', './images/silhouette_venasaur.jpg', './images/venasaur.png', 'The name of this Grass type Pokemon begins with a V')
+const David = new Pokemon('David Santleman', './images/David Santleman_s.jpg', './images/David Santleman.jpg', 'Guy Senior')
 
-const ninetales = new Pokemon('Ninetales', './images/silhouette_ninetales.png', './images/ninetales.png', 'The name of this Fire type pokemon begins with an N')
+const Emma = new Pokemon('Emma Rodewald', './images/Emma Rodewald_s.jpg', './images/Emma Rodewald.jpg', 'Girl Senior')
 
-const venonat = new Pokemon('Venonat', './images/silhouette_venonat.jpg', './images/venonat.png', 'The name of this Bug type Pokemn begins with a V')
+const Ingrid = new Pokemon('Ingrid Bloedel', './images/Ingrid Bloedel_s.jpg', './images/Ingrid Bloedel.jpg', 'Girl Senior')
 
-const alakazam = new Pokemon('Alakazam', './images/silhouette_alakazam.png', './images/alakazam.png', 'The name of this Psychic type Pokemon begins with an A')
+const Jacob = new Pokemon('Jacob Gunther', './images/Jacob Gunther_s.jpg', './images/Jacob Gunther.jpg', 'Guy Sophmore')
 
-const pikachu = new Pokemon('Pikachu', './images/silhouette_pikachu2.jpg', './images/pikachu.png', 'The name of this Electric type Pokemon begins with a P')
+const Kerrigan = new Pokemon('Kerrigan Brau', './images/Kerrigan Brau_s.jpg', './images/Kerrigan Brau.jpg', 'Girl Sophmore')
 
-const magneton = new Pokemon('Magneton', './images/silhouette_magneton.png', './images/magneton.png', 'The name of this Electric type Pokemon begins with an M')
+const McKenize = new Pokemon('McKenize Christensen', './images/Mckenize Christensen_s.jpg', './images/Mckenize Christensen.jpg', 'Girl Sophmore')
 
-const mewtwo = new Pokemon('Mewtwo', './images/silhouette_mewtwo.jpg', './images/mewtwo.png', 'The name of this Psychic type Pokemon begins with an M')
+const Mitch = new Pokemon('Mitch Nerland', './images/Mitch Nerland_s.jpg', './images/Mitch Nerland.jpg', 'Guy Senior')
 
-const sandslash = new Pokemon('Sandslash', './images/silhouette_sandslash.png', './images/sandslash.png', 'The name of this Ground type Pokemon begins with an S')
 
-const onix = new Pokemon('Onix', './images/silhouette_onix.jpeg', './images/onix.png', 'The name of this Rock type Pokemon begins with an O')
-
-const rattata = new Pokemon('Rattata', './images/silhouette_rattata.png', './images/ratata.png', 'The name of this Normal type Pokemon begins with an R')
-
-const diglett = new Pokemon('Diglett', './images/silhouette_diglett.png', './images/diglett.png', 'The name of this Ground type Pokemon begins with a D')
-
-const eevee = new Pokemon('Eevee', './images/silhouette_eevee.jpg', './images/eevee.png', 'The name of this Normal type Pokemon begins with an E')
-
-const zapdos = new Pokemon('Zapdos', './images/silhouette_zapdos3.jpg', './images/zapdos.png', 'The name of this Electric type Pokemon begins with a Z')
-
-const mew = new Pokemon('Mew', './images/silhouette_mew.jpeg', './images/meww.png', 'The name of this Psychic type Pokemon begins with an M')
-
-const pidgey = new Pokemon('Pidgey', './images/silhouette_pidgey.jpg', './images/pidgey.png', 'The name of this Flying type Pokemon begins with a P')
-
-const marowak = new Pokemon('Marowak', './images/silhouette_marowak.jpg', './images/marowak.png', 'The name of this Ground type Pokemon begins with an M')
-
-const machop = new Pokemon('Machop', './images/silhouette_machop.jpg', './images/machop.png', 'The name of this Fighting type Pokemon begins with an M')
-
-const electabuzz = new Pokemon('Electabuzz', './images/silhouette_electabuzz.png', './images/electabuzz.jpg', 'The name of this Electric type Pokemon begins with an E')
-
-const arcanine = new Pokemon('Arcanine', './images/silhouette_arcanine.png', './images/arcanine.png', 'Thename of this Fire type Pokemon begins with an A')
-
-const poliwhirl = new Pokemon('Poliwhirl', './images/silhouette_poliwrath.png', './images/Poliwhirl.png', 'The name of this Water type Pokemon begins with a P')
-
-const ghastly = new Pokemon('Ghastly', './images/silhouette_ghastly.jpg', './images/ghastly.png', 'The name of this Ghost type Pokemon begins with a G')
-
-const oddish = new Pokemon('Oddish', './images/silhouette_oddish.png', './images/oddish.jpg', 'The name of this Grass type pokemon begins with an O')
-
-const chansey = new Pokemon('Chansey', './images/silhouette_chansey.png', './images/chansey.png', 'The name of this Normal type Pokemon begins with a C')
-
-const machamp = new Pokemon('Machamp', './images/silhouette_machamp.png', './images/machamp.png', 'The name of this Fighting type Pokemon begins with an M')
-
-const raichu = new Pokemon('Raichu', './images/silhouette_raichu.jpg', './images/raichu.png', 'The name of this Electric type Pokemon starts with an R')
-
-const hitmonchan = new Pokemon('Hitmonchan', './images/silhouette_hitmonchan.png', './images/hitmonchan.png', 'The name of this Fighting type Pokemon begins with an H')
-
-const hitmonlee = new Pokemon ('Hitmonlee', './images/silhouette_hitmonlee.jpeg', './images/hitmonlee.jpg', 'The name of this Fighting type Pokemon begins with an H')
-
-const vulpix = new Pokemon('Vulpix', './images/silhouette_vulpix.jpg', './images/vulpix.png', 'The name of this Fire type Pokemon begins with a V')
 //Pokemon Array
 const allPokemon = [charmander, squirtle, dratini, venasaur, ninetales, venonat, alakazam, pikachu, magneton, mewtwo, sandslash, onix, rattata, diglett, eevee, zapdos, mew, pidgey, marowak, machop, electabuzz, arcanine, poliwhirl, ghastly, oddish, chansey, machamp, raichu, hitmonchan, hitmonlee, vulpix]
 
