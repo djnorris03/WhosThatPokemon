@@ -120,7 +120,7 @@ const Mitch = new Pokemon('Mitch Nerland', './images/Mitch Nerland_s.jpg', './im
 
 
 //Pokemon Array
-const allPokemon = [charmander, squirtle, dratini, venasaur, ninetales, venonat, alakazam, pikachu, magneton, mewtwo, sandslash, onix, rattata, diglett, eevee, zapdos, mew, pidgey, marowak, machop, electabuzz, arcanine, poliwhirl, ghastly, oddish, chansey, machamp, raichu, hitmonchan, hitmonlee, vulpix]
+const allPokemon = [Abby, Allison, Ava, David, Emma, Ingrid, Jacob, Kerrigan, McKenzie, Mitch]
 
 // Get the modal
 var modal = document.getElementById("myModal");
