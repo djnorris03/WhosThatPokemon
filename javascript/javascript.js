@@ -115,7 +115,7 @@ const Jacob = new Pokemon('Jacob Gunther', './images/Jacob Gunther__s.jpg', './i
 
 const Kerrigan = new Pokemon('Kerrigan Brau', './images/Kerrigan Brau_s.jpg', './images/Kerrigan Brau.jpg', 'Girl Sophmore')
 
-const Mckenize = new Pokemon('Mckenize Christensen', './images/Mckenzie Christensen_s2.jpg', './images/Mckenize Christensen2.jpg', 'Girl Sophmore')
+const Mckenize = new Pokemon('Mckenize Christensen', './images/Mckenzie Christensen_s2.jpg', './images/Mckenize Christensen', 'Girl Sophmore')
 
 const Mitch = new Pokemon('Mitch Nerland', './images/Mitch Nerland_s.jpg', './images/Mitch Nerland.jpg', 'Guy Senior')
 
