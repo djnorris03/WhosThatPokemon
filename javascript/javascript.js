@@ -15,10 +15,11 @@ let i = 0
 
 //Startup Fuction
 function starting() {
-  let random = Math.ceil(Math.random() * 30)
+  let random = Math.ceil(Math.random() * 10)
   i = random
-  pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
+  pokeImg.src = allPokemon[i].img
+  
 }
 window.onload = starting;
 
@@ -65,7 +66,7 @@ nextButton.addEventListener("click", function (evt) {
 
   }
   click();
-  let random = Math.ceil(Math.random() * 30)
+  let random = Math.ceil(Math.random() * 10)
   i = random
   pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
@@ -75,7 +76,7 @@ nextButton.addEventListener("click", function (evt) {
 // This one resets score to 0 and starts game over
 startOver.addEventListener("click", function (evt) {
   evt.preventDefault();
-  let random = Math.ceil(Math.random() * 30)
+  let random = Math.ceil(Math.random() * 10)
   i = random
   pokeImg.src = allPokemon[i].img
   pokeName.innerText = allPokemon[i].name
@@ -110,17 +111,17 @@ const Emma = new Pokemon('Emma Rodewald', './images/Emma Rodewald_s.jpg', './ima
 
 const Ingrid = new Pokemon('Ingrid Bloedel', './images/Ingrid Bloedel_s.jpg', './images/Ingrid Bloedel.jpg', 'Girl Senior')
 
-const Jacob = new Pokemon('Jacob Gunther', './images/Jacob Gunther_s.jpg', './images/Jacob Gunther.jpg', 'Guy Sophmore')
+const Jacob = new Pokemon('Jacob Gunther', './images/Jacob Gunther__s.jpg', './images/Jacob Gunther_.jpg', 'Guy Sophmore')
 
 const Kerrigan = new Pokemon('Kerrigan Brau', './images/Kerrigan Brau_s.jpg', './images/Kerrigan Brau.jpg', 'Girl Sophmore')
 
-const McKenize = new Pokemon('McKenize Christensen', './images/Mckenize Christensen_s.jpg', './images/Mckenize Christensen.jpg', 'Girl Sophmore')
+const Mckenize = new Pokemon('Mckenize Christensen', './images/Mckenzie Christensen_s2.jpg', './images/Mckenize Christensen2.jpg', 'Girl Sophmore')
 
 const Mitch = new Pokemon('Mitch Nerland', './images/Mitch Nerland_s.jpg', './images/Mitch Nerland.jpg', 'Guy Senior')
 
 
 //Pokemon Array
-const allPokemon = [Abby, Allison, Ava, David, Emma, Ingrid, Jacob, Kerrigan, McKenzie, Mitch]
+const allPokemon = [Abby, Allison, Ava, David, Emma, Ingrid, Jacob, Kerrigan, Mckenize, Mitch]
 
 // Get the modal
 var modal = document.getElementById("myModal");
